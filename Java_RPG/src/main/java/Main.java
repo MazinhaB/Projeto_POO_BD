@@ -47,7 +47,7 @@ public class Main {
         armadura1.personagem = p1;
         armadura1.mundo = m1;
         p1.armadura = armadura1;
-
+/*
         // Inserção
         database.insertMundo(m1);
         database.insertPersonagem(p1);
@@ -55,21 +55,22 @@ public class Main {
         database.insertArma(arma1);
         database.insertItem(armadura1);
         database.insertArmadura(armadura1);
-
+*/
+/*
         //Pesquisa
         database.researchPersonagem();
         database.researchArma();
         database.researchArmadura();
         database.researchItem();
         database.researchMundo();
-
-
+  */
+        /*
         //Deletar
-        //database.deletePersonagem("Shump");
-        //database.deleteMundo("O Misterio do el dourado");
-        //database.deleteItem("Escudo");
-        //database.deleteArma(1);
-        //database.deleteArmadura(1);
-
+        database.deletePersonagem("Shump");
+        database.deleteMundo("O Misterio do el dourado");
+        database.deleteItem("Escudo");
+        database.deleteArma(1);
+        database.deleteArmadura(1);
+*/
     }
 }

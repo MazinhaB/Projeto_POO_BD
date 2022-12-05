@@ -1,10 +1,14 @@
+import javax.xml.crypto.Data;
+import java.util.ArrayList;
+
 public class Mundo {
-    private static int cont = 0;
+    private static int cont;
     public int idMundo;
     private String nomeMundo;
     private String tipoMundo;
     private String nomeMestre;
 
+    public void setCont(int c){cont = c;}
     public Mundo(){
         cont++;
         this.idMundo = cont;

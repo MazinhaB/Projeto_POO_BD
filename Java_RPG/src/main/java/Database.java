@@ -348,7 +348,7 @@ public class Database {
     // ---- Método de atualização ----
     public boolean updatePersonagem(int id, String nome){
         connect();
-        String sql = "UPDATE Personagem SET nome=? WHERE id=?";
+        String sql = "UPDATE Personagem SET nome=? WHERE idPersonagem=?";
         try{
             pst = connection.prepareStatement(sql);
             pst.setString(1, nome);

@@ -62,6 +62,17 @@ public class Personagem {
         this.modCarisma = (this.carisma - 10) / 2;
     }
 
+    public void mostraInfo(){
+        System.out.println("Nome: " + this.nome + "\tNivel: " + this.nivel);
+        System.out.println("Classe:" + this.classe + "\tRaca:" + this.raca);
+        System.out.println("Forca: " + this.forca + "\t\t" + this.modForca);
+        System.out.println("Destreza: " + this.destreza + "\t\t" + this.modDestreza);
+        System.out.println("Constituicao: " + this.constituicao + "\t\t" + this.modConstituicao);
+        System.out.println("Sabedoria: " + this.sabedoria + "\t\t" + this.modSabedoria);
+        System.out.println("Inteligencia: " + this.inteligencia + "\t\t" + this.modInteligencia);
+        System.out.println("Carisma: " + this.carisma + "\t\t" + this.modCarisma);
+        System.out.println("Arma: " + this.armaAtual.getNome() + "\t Armadura: " + this.armadura.getNome());
+    }
     public void cadastraArmas(Arma arma){this.armas.add(arma);}
 
     public String getNomeJogador() {
